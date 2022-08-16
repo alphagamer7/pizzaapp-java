@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="carnation_300">#FFFF8080</color>
+    <color name="carnation_500">#FFF45656</color>
+    <color name="carnation_700">#FFBD4242</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mercury">#FFE5E5E5</color>
+    <color name="slate_gray">#FF6C7693</color>
+    <color name="cadet_gray">#338F9BBA</color>
+    <color name="whisper">#FFFAFAFC</color>
+</resources>

@@ -60,7 +60,10 @@ public class HistoryOrderItem implements Parcelable {
                     )
             );
             // Add "and" as a linking word to the last topping in the list for a more natural sentence.
-            toppingsToConvert.set(toppingsToConvert.size() - 1, String.format("and %s.", lastTopping));
+            if(toppingsToConvert.size()>1){
+                toppingsToConvert.set(toppingsToConvert.size() - 1, String.format("and %s.", lastTopping));
+            }
+           
 
             String text = toppingsToConvert.toString();
             this.toppingsText = text.substring(1, text.length() - 1);   // Remove the square brackets []

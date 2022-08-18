@@ -140,7 +140,7 @@ public class HomeFragment extends Fragment {
 
         listViewHistoryOrders.setOnItemClickListener((adapterView, view, i, l) -> {
             HistoryOrderItem historyOrderItem = historyOrderListAdapter.getItems().get(i);
-            // Gson gson = new Gson();
+            Gson gson = new Gson();
             FragmentCommunicator fc = (FragmentCommunicator) getActivity();
             if (fc != null) {
                 fc.takeAction(

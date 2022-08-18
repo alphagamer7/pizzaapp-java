@@ -13,6 +13,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
 import com.athif.buzzapizza.homefragment.HistoryOrderItem;
 import com.athif.buzzapizza.homefragment.HomeFragment;
 import com.athif.buzzapizza.interfaces.FragmentAction;
@@ -73,8 +74,8 @@ public class MainActivity extends AppCompatActivity implements FragmentCommunica
 
         editor = sharedPreferences.edit();
 
-        editor.putString(HISTORY_ORDER_ITEM_LIST, gson.toJson(historyOrderItemList));
-        editor.apply();
+        // editor.putString(HISTORY_ORDER_ITEM_LIST, gson.toJson(historyOrderItemList));
+        // editor.apply();
     }
 
     @Override
@@ -114,8 +115,8 @@ public class MainActivity extends AppCompatActivity implements FragmentCommunica
     }
 
     private void onNavigateToSelectToppingsPage(String jsonData) {
-        Gson gson = new Gson();
-        HistoryOrderItem historyOrderItem = gson.fromJson(jsonData, HistoryOrderItem.class);
+        // Gson gson = new Gson();
+        // HistoryOrderItem historyOrderItem = gson.fromJson(jsonData, HistoryOrderItem.class);
 
         Fragment toppingsFragment = ToppingsFragment.newInstance(historyOrderItem);
 

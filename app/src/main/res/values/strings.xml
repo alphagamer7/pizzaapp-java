@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BuzzaPizza</string>
+    <string name="app_name">Pizza Order</string>
     <string name="greeting">Good %1$s!</string>
     <string name="btn_customize_pizza">Customize Pizza</string>
     <string name="text_history_orders">History Orders</string>

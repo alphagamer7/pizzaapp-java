@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity implements FragmentCommunica
     @Override
     protected void onPause() {
         super.onPause();
-
         editor = sharedPreferences.edit();
 
         editor.putString(HISTORY_ORDER_ITEM_LIST, gson.toJson(historyOrderItemList));

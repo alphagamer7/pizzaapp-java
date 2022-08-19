@@ -14,8 +14,8 @@ Gurpreet Kaur A00252915</br>
 
 internal SQLite db(https://developer.android.com/training/data-storage/sqlite)</br>
 firebase firestore (https://firebase.google.com/docs/firestore )</br>
- GSON solution (https://github.com/google/gson) </br>
- At the end, after researching on each option, we went with GSON which helps serialization/deserialization and using
+ JSON solution (https://github.com/google/gson) </br>
+ At the end, after researching on each option, we went with JSON which helps serialization/deserialization and using
 sharedPreferences for data persistance.</p>
 
 <h1>Screenshots:</h1>

@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AlertDialog;
 
 import com.athif.buzzapizza.R;
@@ -72,36 +71,6 @@ class HistoryOrderListAdapter extends BaseAdapter {
 
         holder.toppingsView.setText(items.get(i).getToppingsText());
         return view;
-    }
-
-    private void onRemoveOrder(int position) {
-        new AlertDialog.Builder(context)
-                .setTitle("Remove Order")
-                .setMessage("Are you sure you want to permanently remove this order?")
-                .setNegativeButton("Cancel",
-                        (dialog, which) -> dialog.dismiss()
-                )
-                .setPositiveButton("Confirm",
-                        (dialog, which) -> {
-                            items.remove(position);
-                            try {
-                                FragmentCommunicator fc = (FragmentCommunicator) context;
-                                fc.takeAction(FragmentAction.REMOVE_HISTORY_ORDER, String.valueOf(position));
-                            } catch (Exception e) {
-                                e.printStackTrace();
-                                Log.e(
-                                        HistoryOrderListAdapter.class.getCanonicalName(),
-                                        "onRemoveOrder: e = ", e
-                                );
-                            }
-                            notifyDataSetChanged();
-                        })
-                .show();
-    }
-
-    public void toggleBtnRemoveVisibility() {
-        this.isBtnRemoveVisible = !this.isBtnRemoveVisible;
-        notifyDataSetChanged();
     }
 
     static class ViewHolder {

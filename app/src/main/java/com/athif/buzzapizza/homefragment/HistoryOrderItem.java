@@ -64,7 +64,6 @@ public class HistoryOrderItem implements Parcelable {
                 toppingsToConvert.set(toppingsToConvert.size() - 1, String.format("and %s.", lastTopping));
             }
            
-
             String text = toppingsToConvert.toString();
             this.toppingsText = text.substring(1, text.length() - 1);   // Remove the square brackets []
         }

@@ -31,10 +31,10 @@ sharedPreferences for data persistance without too much issues with dependancies
 
 <h1>Screenshots:</h1>
 
-
-![image](https://user-images.githubusercontent.com/17358908/185530757-d519176b-59af-47c5-82bf-94396e962a09.png)
+![Screenshot_20220819_081128](https://user-images.githubusercontent.com/17358908/185531760-96764c7f-96af-4efe-8d2d-9bc7f3408547.png)
+![Screenshot_20220819_081142](https://user-images.githubusercontent.com/17358908/185531733-23148ab9-5646-45c1-9abf-806a5e47567e.png)
 ![S2](https://user-images.githubusercontent.com/106410851/185513741-afc92221-c0c5-47cd-9594-183213e5b42d.png)
 ![S3](https://user-images.githubusercontent.com/106410851/185513751-de97795b-2b99-4017-9f80-8c6353c1b800.png)
-![image](https://user-images.githubusercontent.com/17358908/185530934-be15b15d-67d3-4763-a0c1-d7c2d71fcbcc.png)
+
 
 

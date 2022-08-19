@@ -9,6 +9,8 @@ Shubham Dhamane A00257743</br>
 
 Gurpreet Kaur A00252915</br>
 
+APK link- https://drive.google.com/file/d/17hogAyKone-oBRg1Vv1Bn-J5_9PwDxCR/view?usp=sharing
+
 <h1>Description:</h1>
 
 <p>In our Pizza order app, We customize pizza according to customer specifications and also record the previous orders as history orders. In addition to, we provide option for customers to select toppings such as Pepperoni, Bacon, Mushrooms, Tomatoes, Capsicum, etc. Moving towards, ordering section in which user have to fill some of their personal information as Name, Address, City, Zipcode. We allow users who have placed orders to delete orders as well  </p>

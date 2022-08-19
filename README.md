@@ -6,7 +6,7 @@ Shubham Dhamane A00257743</br>
 Gurpreet Kaur A00252915</br>
 
 <h1>Description:</h1>
-<p>In our Pizza app, We customize pizza according to customer specifications and also record the previous orders as history orders. In addition to, we provide option for customer select topings such as Pepperoni, Bacon, Mushrooms, Tomatoes, Capsicum, etc. Moving towards, ordering section in which user need to fill some personal details like Name, Address, City, Zipcode. </p>
+<p>In our Pizza app, We customize pizza according to customer specifications and also record the previous orders as history orders. In addition to, we provide option for customers to select toppings such as Pepperoni, Bacon, Mushrooms, Tomatoes, Capsicum, etc. Moving towards, ordering section in which user have to fill some of their personal information as Name, Address, City, Zipcode. </p>
 
 
 <h1>Data storage Consideration:</h1>

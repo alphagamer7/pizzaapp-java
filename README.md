@@ -18,13 +18,16 @@ Gurpreet Kaur A00252915</br>
 <p>We considered several options as follow</br>
 
 SQLite db(https://developer.android.com/training/data-storage/sqlite)</br>
+Consider
 
 Firebase firestore (https://firebase.google.com/docs/firestore )</br>
 
- JSON solution (https://github.com/google/gson) </br>
+We considered Firebase after Professor email that we could check firebase. We did an initial research on firebase. We created firebase project and added the google-services.json file and did initial CRUD operations, but later decided not to sicne we already did a significant portion via GSON. Branch wiht firebase R&D: https://github.com/alphagamer7/pizzaapp-java/tree/feature/add-firebase 
 
- At the end, after researching on each option, we went with JSON which helps serialization/deserialization and using
-sharedPreferences for data persistance.</p>
+GSON solution (https://github.com/google/gson) </br>
+
+At the end, after researching on each option, we went with GSON which helps serialization/deserialization and using
+sharedPreferences for data persistance without too much issues with dependancies.</p>
 
 <h1>Screenshots:</h1>
 

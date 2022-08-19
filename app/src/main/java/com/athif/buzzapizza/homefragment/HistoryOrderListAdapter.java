@@ -73,6 +73,37 @@ class HistoryOrderListAdapter extends BaseAdapter {
         return view;
     }
 
+    // Removes order item after clicking on edit button and then delete icon on each order item.
+    private void onRemoveOrder(int position) {
+        new AlertDialog.Builder(context)
+                .setTitle("Remove Order")
+                .setMessage("Are you sure you want to permanently remove this order?")
+                .setNegativeButton("Cancel",
+                        (dialog, which) -> dialog.dismiss()
+                )
+                .setPositiveButton("Confirm",
+                        (dialog, which) -> {
+                            items.remove(position);
+                            try {
+                                FragmentCommunicator fc = (FragmentCommunicator) context;
+                                fc.takeAction(FragmentAction.REMOVE_HISTORY_ORDER, String.valueOf(position));
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                                Log.e(
+                                        HistoryOrderListAdapter.class.getCanonicalName(),
+                                        "onRemoveOrder: e = ", e
+                                );
+                            }
+                            notifyDataSetChanged();
+                        })
+                .show();
+    }
+
+    public void toggleBtnRemoveVisibility() {
+        this.isBtnRemoveVisible = !this.isBtnRemoveVisible;
+        notifyDataSetChanged();
+    }
+
     static class ViewHolder {
         TextView toppingsView;
         ImageView btnRemove;

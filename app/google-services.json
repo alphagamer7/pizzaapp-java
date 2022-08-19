@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "519682018581",
+    "project_id": "buzza-pizza-876b7",
+    "storage_bucket": "buzza-pizza-876b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519682018581:android:c3c386c5b622a03df22d1c",
+        "android_client_info": {
+          "package_name": "com.athif.buzzapizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519682018581-4q5m5n5bo3k9shujouq7i4me2hiittcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJx0VswS3yrt_d7TpAfT3ob1eRddLlis4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519682018581-4q5m5n5bo3k9shujouq7i4me2hiittcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
